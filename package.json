@@ -1,7 +1,7 @@
 {
   "name": "myine",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,9 +9,14 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "bin": {
+    "myine": "./index.js"
+  },
   "dependencies": {
+    "download-git-repo": "^3.0.2",
     "html2pdf": "^0.0.11",
     "html2pdf.js": "^0.10.2",
+    "ora": "^8.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
