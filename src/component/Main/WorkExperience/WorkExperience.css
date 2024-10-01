@@ -16,6 +16,13 @@
     width: 550px;
     margin: 30px 30px;
     padding: 10px;
+    border-radius: 5px;
+}
+
+.experienceItem:hover {
+    box-shadow: -1px 3px 24px -11px rgba(41,41,41,1);
+    transition: .5s;
+    cursor: pointer;
 }
 
 .experienceItem::before {

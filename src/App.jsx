@@ -35,7 +35,18 @@ async function handleClick() {
     html2canvas: {
       scale: 2,
       useCORS: true,
-      logging: true
+      logging: true,
+      onclone: (documentClone) => {
+        const images = documentClone.querySelectorAll('img');
+        images.forEach(img => {
+          if (!img.complete) {
+            img.onload = () => { };
+            img.onerror = () => {
+              console.error(`Failed to load image: ${img.src}`);
+            };
+          }
+        });
+      }
     },
     jsPDF: { unit: 'pt', format: 'a4', orientation: 'portrait' }
   };

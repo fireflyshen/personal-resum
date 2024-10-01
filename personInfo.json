@@ -1,10 +1,10 @@
 {
   "personalInfo": {
     "name": "沈博",
-    "age": 24,
+    "age": 111,
     "workyear":2,
     "gender": "男",
-    "image": "https://sydneyheadshot.net/wp-content/uploads/2021/06/Sharing-001-24.jpg",
+    "image": "./src/assets/avatar.jpg",
     "contact": {
       "email": "xxx@gmail.com",
       "phone": "1763344010",

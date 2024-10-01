@@ -19,5 +19,8 @@ download(repo, target, (err) => {
   } else {
     spinner.succeed("Template downloaded successfully");
     console.log(`Project has been created in ${path.resolve(target)}`);
+    console.log(`cd ${target}`);
+    console.log("npm install");
+    console.log("npm run dev");
   }
 });
