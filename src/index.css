@@ -1,0 +1,13 @@
+
+
+@font-face {
+  font-family: 'xuwk';
+  src: url(./assets/LXGWWenKai-Medium.ttf);
+}
+
+#root {
+  font-family: 'xuwk', sans-serif;
+  
+  width: 100%;
+}
+

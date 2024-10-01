@@ -1,0 +1,68 @@
+{
+  "personalInfo": {
+    "name": "沈博",
+    "age": 24,
+    "workyear":2,
+    "gender": "男",
+    "image": "https://sydneyheadshot.net/wp-content/uploads/2021/06/Sharing-001-24.jpg",
+    "contact": {
+      "email": "xxx@gmail.com",
+      "phone": "1763344010",
+      "wechat": "firefly",
+      "github": "http://github.com"
+    },
+    "education": {
+      "school": "野鸡大学",
+      "major": "野鸡专业",
+      "degree": "野鸡学位",
+      "subject": ["野鸡课程1", "野鸡课程2", "野鸡课程3"],
+      "gpa": "4.0"
+    }
+  },
+  "workExperience": [
+    {
+      "title": "前端工程师",
+      "company": "上海xxxx科技有限公司",
+      "year": "3",
+      "startDate": "2020-01-01",
+      "endDate": "2023-01-01",
+      "description": "负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务"
+    },
+    {
+      "title": "前端工程师",
+      "company": "上海xxxx科技有限公司",
+      "year": "3",
+      "startDate": "2020-01-01",
+      "endDate": "2023-01-01",
+      "description": "负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务"
+    },
+    {
+      "title": "前端工程师",
+      "company": "上海xxxx科技有限公司",
+      "year": "3",
+      "startDate": "2020-01-01",
+      "endDate": "2023-01-01",
+      "description": "负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务"
+    },
+    {
+      "title": "前端工程师",
+      "company": "上海xxxx科技有限公司",
+      "year": "3",
+      "startDate": "2020-01-01",
+      "endDate": "2023-01-01",
+      "description": "负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务负责公司的前端业务"
+    }
+  ],
+  "skills": {
+    "language": [],
+    "framework": [],
+    "tools": []
+  },
+  "projects": [
+    {
+      "name": "",
+      "description": "",
+      "link": ""
+    }
+  ]
+}

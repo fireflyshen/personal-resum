@@ -1,0 +1,51 @@
+.experience {
+  width: auto;
+  /* background-color: aliceblue; */
+}
+.timeline {
+    width: 10px;
+    position: relative;
+    background-color: #002FA7;
+    margin-left: 140px;
+    border-radius: 5px;
+
+}
+
+.experienceItem {
+    position: relative;
+    width: 550px;
+    margin: 30px 30px;
+    padding: 10px;
+}
+
+.experienceItem::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    left: -13px;
+    top: 50%;
+    transform: rotate(45deg) translateY(-50%);
+   
+}
+
+.experienceCircle {
+    width: 15px;
+    height: 15px;
+    /* background-color: blue; */
+    border-radius: 50%;
+    border: 3px solid #002FA7;
+    position: absolute;
+    top: 50%;
+    left: -35.5px;
+    transform: translateY(-50%);
+    background-color: #fff;
+}
+
+.experienceDate {
+    position: absolute;
+    top: 50%;
+    left: -136px;
+    transform: translateY(-50%);
+}

@@ -1,0 +1,48 @@
+@import url('https://at.alicdn.com/t/c/font_4700932_v6dmtshp14.css?spm=a313x.manage_type_myprojects.i1.9.3e273a81ab5rwZ&file=font_4700932_v6dmtshp14.css');
+
+.header {
+    height: 200px;
+    border-radius:  10px 10px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+    font-size: 20px;
+}
+
+.imgContainer {
+    width: 120px;
+    height: 174px;
+}
+
+
+i {
+    font-size: 20px !important;
+    margin-right: 5px;
+    color: #002FA7;
+
+}
+
+
+.imgContainer >  img {
+    object-fit: cover;
+    width: 100%;
+}
+
+
+.personName {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+.personInfo {
+    display: flex;
+    justify-content: space-around;
+    /* gap: 70px; */
+    margin-top: 20px;
+}
+
+.personProperty {
+    margin-right: 70px;
+}
