@@ -25,7 +25,6 @@ export default function WorkExperience() {
                                         <div>工作内容：{item.description}</div>
                                     </div>
                                 </div>
-
                             </div>
                         )
                     })
