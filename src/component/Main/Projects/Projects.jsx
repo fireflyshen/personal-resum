@@ -1,10 +1,11 @@
 import Title from "../../common/Title";
+import './Projects.css'
 
 export default function Projects() {
   return (
     <>
       <Title partTitle="个人项目" />
-      <div>
+      <div className="projects">
         <div className="projectItem">
           <div className="projectContent">
             <div>项目名称：React项目</div>
