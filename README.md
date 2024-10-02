@@ -1,8 +1,17 @@
-# React + Vite
+# 一份在线简历
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+适配了移动端的现实，实现了pdf的下载功能
 
-Currently, two official plugins are available:
+```shell
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npx myine 项目名
+
+```
+
+```shell
+npm i
+```
+
+```shell
+npm run dev
+```
