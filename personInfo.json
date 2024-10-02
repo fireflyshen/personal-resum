@@ -4,7 +4,7 @@
     "age": 111,
     "workyear":2,
     "gender": "男",
-    "image": "./src/assets/avatar.jpg",
+    "image": "./assets/avatar.jpg",
     "contact": {
       "email": "xxx@gmail.com",
       "phone": "1763344010",
