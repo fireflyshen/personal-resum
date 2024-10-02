@@ -1,15 +1,27 @@
 .btn {
-    position: absolute;
-    padding: 10px 20px;
-    background-color: #002FA7;
-    color: white;
-    border-radius: 5px;
-    border: none;
-    font-size: 20px;
+  position: absolute;
+  padding: 10px 20px;
+  background-color: #002fa7;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
 }
 
 .btn:hover {
-    background-color: #001F5B;
-    cursor: pointer;
-    transition: .5s;
+  background-color: #001f5b;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+  .btn {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .btn {
+    display: none !important;
+  }
 }

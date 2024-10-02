@@ -19,7 +19,7 @@
     border-radius: 5px;
 }
 
-.experienceItem:hover {
+.hover{
     box-shadow: -1px 3px 24px -11px rgba(41,41,41,1);
     transition: .5s;
     cursor: pointer;
@@ -58,18 +58,83 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 760px) {
     .experienceItem {
-        width: 300px;
+        width: 100%;
+        min-width: 500px;
+    }
+    .experienceContent {
+        width: 100%;
+        min-width: 400px;
+    }
+    .experienceCircle {
+        left: -35.5px;
+    }
+    .timeline {
+        margin-left: 30px;
+    }
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    .experienceItem {
+        width: 100%;
+        min-width: 330px;
+    }
+    .experienceContent {
+        width: 100%;
+        min-width: 300px;
+    }
+    .experienceCircle {
+        left: -35.5px;
+    }
+    .timeline {
+        margin-left: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 390px) {
+    .experienceItem {
+        width: 100%;
+        min-width: 300px;
+    }
+    .experienceContent {
+        width: 100%;
+        min-width: 230px;
     }
     .experienceDate {
         left: -100px;
     }
     .experienceCircle {
-        left: -20.5px;
+        left: -35.5px;
     }
+
     .timeline {
-        margin-left: 70px;
+        margin-left: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    .experienceItem {
+        width: 100%;
+        min-width: 230px;
+    }
+    .experienceContent {
+        width: 100%;
+        min-width: 180px;
+    }
+    .experienceDate {
+        left: -100px;
+    }
+    .experienceCircle {
+        left: -35.5px;
+    }
+
+    .timeline {
+        margin-left: 30px;
     }
     
 }
