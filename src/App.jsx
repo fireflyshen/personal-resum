@@ -14,7 +14,6 @@ function App() {
         <EducationExperience />
         <WorkExperience />
         <Projects />
-
       </div>
     </>
   )

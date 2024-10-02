@@ -56,3 +56,20 @@
     left: -136px;
     transform: translateY(-50%);
 }
+
+
+@media screen and (max-width: 768px) {
+    .experienceItem {
+        width: 300px;
+    }
+    .experienceDate {
+        left: -100px;
+    }
+    .experienceCircle {
+        left: -20.5px;
+    }
+    .timeline {
+        margin-left: 70px;
+    }
+    
+}
