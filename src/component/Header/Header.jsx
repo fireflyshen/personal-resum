@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <div className="header">
 
-            <div>
+            <div className='person'>
                 <div>
                     <div className='personName'>{person.personalInfo.name}</div>
                 </div>
