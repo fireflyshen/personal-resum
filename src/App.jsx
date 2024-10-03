@@ -5,7 +5,47 @@ import EducationExperience from './component/Main/EducationExperience/EducationE
 import Projects from './component/Main/Projects/Projects'
 import WorkExperience from './component/Main/WorkExperience/WorkExperience'
 import html2pdf from 'html2pdf.js';
+import { useState } from 'react';
+import { ShadowDomContent } from './component/common/SettingBorad'
+
 function App() {
+
+
+
+  const [initPosition, setInitPosition] = useState({ x: 0, y: 303 })
+
+  const [position, setPosition] = useState({ x: 0, y: 303 });
+
+
+
+  const onMouseDown = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+
+    if (e.target.tagName === "svg" || e.target.className === "icon") {
+      setInitPosition({ x: 0, y: e.clientY });
+      document.addEventListener('mousemove', onMouseMove);
+      document.addEventListener('mouseup', onMouseUp);
+    }
+
+
+  }
+
+
+
+  const onMouseMove = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setPosition({ x: 0, y: e.clientY });
+  }
+
+  const onMouseUp = () => {
+    console.log("up");
+    
+    document.removeEventListener('mousemove', onMouseMove);
+    document.removeEventListener('mouseup', onMouseUp);
+  }
+
   return (
     <>
       <PdfButton save={handleClick} />
@@ -15,9 +55,16 @@ function App() {
         <WorkExperience />
         <Projects />
       </div>
+
+
+      <ShadowDomContent onMouseDown={onMouseDown} onMouseUp={onMouseUp} position={position} initPosition={initPosition} />
+
     </>
   )
 }
+
+
+
 
 
 async function handleClick() {

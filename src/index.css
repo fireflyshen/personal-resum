@@ -1,11 +1,14 @@
-
+@import url("https://at.alicdn.com/t/c/font_4700932_sqvlzmz2toc.css?spm=a313x.manage_type_myprojects.i1.9.3e273a81mU84Mc&file=font_4700932_sqvlzmz2toc.css");
 @font-face {
-  font-family: 'xuwk';
+  font-family: "xuwk";
   src: url(./LXGWWenKai-Medium.ttf);
 }
 
 #root {
-  font-family: 'xuwk', sans-serif;
+  font-family: "xuwk", sans-serif;
   width: 100%;
 }
 
+:root {
+  --main-color: #002fa7;
+}
