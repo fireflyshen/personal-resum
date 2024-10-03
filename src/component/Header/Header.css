@@ -44,7 +44,7 @@ i {
 
 @media screen and (max-width: 768px) {
   .personName {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bold;
     margin-top: 50px;
     margin-left: 30px;
