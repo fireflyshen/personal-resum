@@ -40,7 +40,7 @@ i {
 
 .personProperty {
   margin-right: 70px;
-  margin-bottom: 40px;
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -53,6 +53,7 @@ i {
 
   .header {
     padding: 0px 0px;
+    margin-bottom: 40px;
   }
 
   .personInfo {
