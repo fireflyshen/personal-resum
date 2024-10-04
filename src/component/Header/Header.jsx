@@ -3,14 +3,11 @@ import person from '../../../personInfo.json'
 
 export default function Header() {
     return (
-        <div className="header">
-
-            <div className='person'>
-                <div>
-                    <div className='personName'>{person.personalInfo.name}</div>
-                </div>
-                <div className='personInfo'>
-                    <div className='personProperty'>
+        <div className="header1" >
+            <div className='headerInfo1'>
+                <div className='personName1'>{person.personalInfo.name}</div>
+                <div className='personInfo1'>
+                    <div className='personProperty1'>
                         <div><i className='iconfont icon-xingbienan'></i><span>性别:</span>{person.personalInfo.gender}</div>
                         <div><i className='iconfont icon-nianling'></i><span>年龄:</span>{person.personalInfo.age}</div>
                         <div><i className='iconfont icon-gongzuonianxian'></i><span>工作年限:</span>{person.personalInfo.workyear}</div>
@@ -22,7 +19,7 @@ export default function Header() {
                     </div>
                 </div>
             </div>
-            <div className='imgContainer'>
+            <div className='imgContainer1'>
                 <img src={person.personalInfo.image} alt="证件照" />
             </div>
         </div>

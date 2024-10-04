@@ -2,8 +2,6 @@
 /* eslint-disable react/no-unknown-property */
 import { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
-import './SettingBorad.css';
-
 
 import { ChromePicker } from 'react-color';
 

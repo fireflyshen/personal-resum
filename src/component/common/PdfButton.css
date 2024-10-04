@@ -1,7 +1,7 @@
 .btn {
   position: absolute;
   padding: 10px 20px;
-  background-color: var(--main-color);
+  background-color: #001f5b;
   color: white;
   border-radius: 5px;
   border: none;

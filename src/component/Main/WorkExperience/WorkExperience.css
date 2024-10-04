@@ -3,138 +3,130 @@
   /* background-color: aliceblue; */
 }
 .timeline {
-    width: 5px;
-    position: relative;
-    background-color:  var(--main-color);
-    margin-left: 140px;
-    border-radius: 5px;
-
+  width: 5px;
+  position: relative;
+  background-color: var(--main-color);
+  margin-left: 140px;
+  border-radius: 5px;
 }
 
 .experienceItem {
-    position: relative;
-    width: 570px;
-    margin: 10px 35px;
-    padding: 10px;
-    border-radius: 5px;
+  position: relative;
+  width: 570px;
+  margin: 10px 35px;
+  padding: 10px;
+  border-radius: 5px;
 }
 
-.hover{
-    box-shadow: -1px 3px 24px -11px rgba(41,41,41,1);
-    transition: .5s;
-    cursor: pointer;
+.hover {
+  box-shadow: -1px 3px 24px -11px rgba(41, 41, 41, 1);
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 .experienceItem::before {
-    content: '';
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    background-color: #fff;
-    left: -13px;
-    top: 50%;
-    transform: rotate(45deg) translateY(-50%);
-   
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  left: -13px;
+  top: 50%;
+  transform: rotate(45deg) translateY(-50%);
 }
 
 .experienceCircle {
-    width: 10px;
-    height: 10px;
-    /* background-color: blue; */
-    border-radius: 50%;
-    border: 3px solid  var(--main-color);
-    position: absolute;
-    top: 50%;
-    left: -40.49px;
-    transform: translateY(-50%);
-    background-color: #fff;
+  width: 10px;
+  height: 10px;
+  /* background-color: blue; */
+  border-radius: 50%;
+  border: 3px solid var(--main-color);
+  position: absolute;
+  top: 50%;
+  left: -40.49px;
+  transform: translateY(-50%);
+  background-color: #fff;
 }
 
 .experienceDate {
-    position: absolute;
-    top: 50%;
-    left: -136px;
-    transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: -136px;
+  transform: translateY(-50%);
 }
-
 
 @media screen and (max-width: 760px) {
-    .experienceItem {
-        width: 100%;
-        min-width: 500px;
-    }
-    .experienceContent {
-        width: 100%;
-        min-width: 400px;
-    }
-    .experienceCircle {
-        left: -40.49px;
-    }
-    .timeline {
-        margin-left: 30px;
-    }
-    
+  .experienceItem {
+    width: 100%;
+    min-width: 500px;
+  }
+  .experienceContent {
+    width: 100%;
+    min-width: 400px;
+  }
+  .experienceCircle {
+    left: -40.49px;
+  }
+  .timeline {
+    margin-left: 30px;
+  }
 }
 
-
 @media screen and (max-width: 600px) {
-    .experienceItem {
-        width: 100%;
-        min-width: 330px;
-    }
-    .experienceContent {
-        width: 100%;
-        min-width: 300px;
-    }
-    .experienceCircle {
-        left: -40.49px;
-    }
-    .timeline {
-        margin-left: 30px;
-    }
-    
+  .experienceItem {
+    width: 100%;
+    min-width: 330px;
+  }
+  .experienceContent {
+    width: 100%;
+    min-width: 300px;
+  }
+  .experienceCircle {
+    left: -40.49px;
+  }
+  .timeline {
+    margin-left: 30px;
+  }
 }
 
 @media screen and (max-width: 390px) {
-    .experienceItem {
-        width: 100%;
-        min-width: 300px;
-    }
-    .experienceContent {
-        width: 100%;
-        min-width: 230px;
-    }
-    .experienceDate {
-        left: -100px;
-    }
-    .experienceCircle {
-        left: -40.49px;
-    }
+  .experienceItem {
+    width: 100%;
+    min-width: 300px;
+  }
+  .experienceContent {
+    width: 100%;
+    min-width: 230px;
+  }
+  .experienceDate {
+    left: -100px;
+  }
+  .experienceCircle {
+    left: -40.49px;
+  }
 
-    .timeline {
-        margin-left: 30px;
-    }
-    
+  .timeline {
+    margin-left: 30px;
+  }
 }
 
 @media screen and (max-width: 375px) {
-    .experienceItem {
-        width: 100%;
-        min-width: 230px;
-    }
-    .experienceContent {
-        width: 100%;
-        min-width: 180px;
-    }
-    .experienceDate {
-        left: -100px;
-    }
-    .experienceCircle {
-        left: -40.5px;
-    }
+  .experienceItem {
+    width: 100%;
+    min-width: 230px;
+  }
+  .experienceContent {
+    width: 100%;
+    min-width: 180px;
+  }
+  .experienceDate {
+    left: -100px;
+  }
+  .experienceCircle {
+    left: -40.5px;
+  }
 
-    .timeline {
-        margin-left: 30px;
-    }
-    
+  .timeline {
+    margin-left: 30px;
+  }
 }

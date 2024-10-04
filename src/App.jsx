@@ -41,7 +41,7 @@ function App() {
 
   const onMouseUp = () => {
     console.log("up");
-    
+
     document.removeEventListener('mousemove', onMouseMove);
     document.removeEventListener('mouseup', onMouseUp);
   }
@@ -49,13 +49,17 @@ function App() {
   return (
     <>
       <PdfButton save={handleClick} />
+
       <div className="container">
+
         <Header />
+
         <EducationExperience />
         <WorkExperience />
-        <Projects />
-      </div>
 
+        <Projects />
+
+      </div>
 
       <ShadowDomContent onMouseDown={onMouseDown} onMouseUp={onMouseUp} position={position} initPosition={initPosition} />
 
@@ -68,16 +72,18 @@ function App() {
 
 
 async function handleClick() {
-  var element = document.querySelector(".container");
+  var element = document.getElementsByClassName("container")[0];
+  console.log(element);
+
   if (!element) {
     console.warn(`Element with id '${element}' not found.`);
     return;
   }
 
   const opt = {
-    margin: [0, 0, 0, 0], // [top, left, bottom, right]
-    filename: 'myfile.pdf',
-    image: { type: 'jpeg', quality: 0.98 },
+    // margin: [0, 0, 0, 0], // [top, left, bottom, right]
+    filename: 'resume.pdf',
+    image: { type: 'jpeg', quality: 1 },
     html2canvas: {
       scale: 2,
       useCORS: true,
@@ -94,14 +100,20 @@ async function handleClick() {
         });
       }
     },
+
     jsPDF: { unit: 'pt', format: 'a4', orientation: 'portrait' }
   };
+
+
+
 
   await html2pdf().set(opt).from(element).save().then(() => {
     console.log('File saved');
   }).catch((err) => {
     console.error(err);
   });
+
+
 
 }
 
